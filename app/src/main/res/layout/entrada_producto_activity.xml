@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:padding="10dp"
+            android:text="Producto"
+            android:textColor="@color/black"
+            android:textSize="30dp"></TextView>
+
+        <TextView
+            android:id="@+id/lblTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="100dp"
+            android:text="Total Precio Venta"
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+
+        <EditText
+            android:id="@+id/txtTventa"
+            android:layout_width="397dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:hint=" "
+            android:paddingTop="1dp"></EditText>
+
+        <TextView
+            android:id="@+id/lblTcompra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+                android:text="Total Precio Compra"
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint=" "
+            android:gravity="center"
+            android:id="@+id/txtcompra"
+            android:paddingTop="1dp">
+        </EditText>
+        <TextView
+            android:id="@+id/lblGanacia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Total Ganacia"
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint=" "
+            android:gravity="center"
+            android:id="@+id/txtGanancia"
+            android:paddingTop="1dp">
+
+        </EditText>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calcular"
+            android:layout_gravity="center"
+            android:id="@+id/btnCalcular">
+
+
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Regresar"
+            android:layout_gravity="center"
+            android:id="@+id/btnRegresar">
+        </Button>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

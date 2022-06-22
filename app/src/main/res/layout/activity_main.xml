@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    /* Marco Antonio Quintero Herrera - 2019090813@upsin.edu.mx */
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:text="Registro Entrada"
+            android:textColor="@color/black"
+            android:textSize="30dp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Codigo"
+            android:id="@+id/lblCodigo"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:paddingTop="20dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtCodigo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:hint=" "
+            android:paddingTop="1dp"></EditText>
+
+        <TextView
+            android:id="@+id/lblDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Descripcion"
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint=" "
+            android:gravity="center"
+            android:id="@+id/txtDescripcion"
+            android:paddingTop="1dp">
+        </EditText>
+        <TextView
+            android:id="@+id/lblUnidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Unidad"
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint=" "
+            android:gravity="center"
+            android:id="@+id/txtUnidad"
+            android:paddingTop="1dp">
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precio Venta"
+            android:id="@+id/lblVenta"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:paddingTop="20dp">
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint=" "
+            android:gravity="center"
+            android:id="@+id/txtVenta"
+            android:paddingTop="1dp">
+        </EditText>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precio Compra"
+            android:id="@+id/lblCompra"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:paddingTop="20dp">
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint=" "
+            android:gravity="center"
+            android:id="@+id/txtCompra"
+            android:paddingTop="1dp">
+        </EditText>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cantidad"
+            android:id="@+id/lblcantidad"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:paddingTop="20dp">
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint=" "
+            android:gravity="center"
+            android:id="@+id/txtCantidad"
+            android:paddingTop="1dp">
+        </EditText>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:id="@+id/lblResultado">
+        </TextView>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            android:layout_gravity="center"
+            android:id="@+id/btnEnviar">
+
+
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Limpiar"
+            android:layout_gravity="center"
+            android:id="@+id/btnLimpiar">
+        </Button>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
